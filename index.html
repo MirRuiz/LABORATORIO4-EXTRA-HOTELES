@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resevas</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <h1 class="Titulo">RESERVAS</h1>
+    <div id ="formulario">
+    <div id = "habitaciones">
+        <select name="tipo" id="tipo-habitacion">
+            <option value="vacio">Elegir habitacion </option>
+            <option value="standar">Standar</option>
+            <option value="junior-suite">Junior-Suite</option>
+            <option value="suite">Suite</option>
+        </select>
+    </div>
+    <div id = "checkbox">
+        <label for="spa">Spa 20 euros adicional</label>
+        <input type="checkbox" name="spa" id="spa">
+        
+    </div>
+    <div id="personas">
+        <select name="ocupacion" id="ocupacion">
+            <option value="vacio">Elegir ocupacion</option>
+            <option value="individual">Individual</option>
+            <option value="doble">Doble</option>
+            <option value="triple">Triple</option>
+         </select>
+    </div>
+    <div id="numero-noches">
+        <label for="noches">Nºde Noches</label>
+        <input type="number" name="noches" id="noches">
+    </div>
+    <div id="dias-parking">
+        <label for="parking">Noches de Parking</label>
+        <input type="number" name="parking" id="parking">
+    </div>
+    <button type="button" id="precio">Calcular Precio</button>
+    <h1 id="mostrar-precio"></h1>
+    </div>
+    <script src="demo.js"></script>
+
+</body>
+</html>

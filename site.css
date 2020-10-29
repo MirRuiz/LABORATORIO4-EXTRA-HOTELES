@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color:rgb(75, 11, 48);
+    color: white;
+    
+}
+#formulario{
+    text-align: center;
+}
+#mostrar-precio{
+    text-align: center;
+    background-color:rgb(75, 11, 48) ;
+    color: white;
+}
+#checkbox{
+    margin: 10px;
+}
+#noches{
+    margin: 15px;
+}
+#precio{
+    margin:10px;
+}
